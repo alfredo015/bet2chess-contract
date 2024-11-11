@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "app", "wasm",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0"
+
+[workspace.dependencies]
+gstd = "=1.6.2"
+gear-wasm-builder = "=1.6.2"
+gear-wasm-instrument = "=1.6.2"
+sails-client-gen = "=0.6.2"
+sails-idl-gen = "=0.6.2"
+sails-rs = "=0.6.2"
